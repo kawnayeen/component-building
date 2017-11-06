@@ -17,5 +17,6 @@ Then just do the following:
 Contributor
 ------------
 
-Rashidul Islam Rana
-Muhammad Kamarul Kawnayeen
+Rashidul Islam Rana ([@rashidul0405](https://github.com/rashidul0405))
+
+Muhammad Kamarul Kawnayeen ([@kawnayeen](https://github.com/kawnayeen))
