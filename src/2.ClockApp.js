@@ -15,13 +15,18 @@ export default class ClockApp extends Component{
 }
 
 const Clock = class extends Component{
-    render(){
-        const timeZone = this.props.zone
-        const time = moment().tz(timeZone).format("dddd, MMMM Do YYYY, h:mm:ss a zz")
 
+    constructor(props){
+        super(props)
+        this.state = {
+            time: moment().tz(this.props.zone).format("dddd, MMMM Do YYYY, h:mm:ss a zz")
+        }
+    }
+
+    render(){
         return (
             <div>
-                <b>{timeZone}: </b> <span>{time}.</span>
+                <b>{this.props.zone}: </b> <span>{this.state.time}.</span>
             </div>
         )
     }
