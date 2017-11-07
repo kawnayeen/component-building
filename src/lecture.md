@@ -17,4 +17,5 @@
    
 ### State [[Official DOc]](https://reactjs.org/docs/state-and-lifecycle.html)
     - Component can manage it's own state
-    -  
+    - Class based component
+    - Lifecycle methods
