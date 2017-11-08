@@ -38,4 +38,5 @@
 #### Step 4: Identify Where Your State Should Live
 #### Step 5: Add Inverse Data Flow
     
- ### Voting App
+### Voting App
+![voting app final](voting-final.png)
