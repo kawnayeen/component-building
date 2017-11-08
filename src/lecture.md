@@ -25,16 +25,17 @@
     - Lifecycle methods
     
 ### Thinking in React [[Official Doc]](https://reactjs.org/docs/thinking-in-react.html)
-    1. #### Step 1: Break The UI Into A Component Hierarchy
-        ![maked](https://reactjs.org/static/eb8bda25806a89ebdc838813bdfa3601-b269d.png)
+#### Step 1: Break The UI Into A Component Hierarchy    
+![maked](https://reactjs.org/static/eb8bda25806a89ebdc838813bdfa3601-b269d.png)
+
     - FilterableProductTable (orange): contains the entirety of the example
     - SearchBar (blue): receives all user input
     - ProductTable (green): displays and filters the data collection based on user input
     - ProductCategoryRow (turquoise): displays a heading for each category
     - ProductRow (red): displays a row for each product
-    2. #### Step 2: Build A Static Version in React
-    3. #### Step 3: Identify The Minimal (but complete) Representation Of UI State
-    4. #### Step 4: Identify Where Your State Should Live
-    5. #### Step 5: Add Inverse Data Flow
+#### Step 2: Build A Static Version in React
+#### Step 3: Identify The Minimal (but complete) Representation Of UI State
+#### Step 4: Identify Where Your State Should Live
+#### Step 5: Add Inverse Data Flow
     
  ### Voting App
