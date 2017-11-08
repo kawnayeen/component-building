@@ -36,7 +36,17 @@
 #### Step 2: Build A Static Version in React
 #### Step 3: Identify The Minimal (but complete) Representation Of UI State
 #### Step 4: Identify Where Your State Should Live
+    - unidirectional data flow
 #### Step 5: Add Inverse Data Flow
+    - no 2 way bindings
     
-### Voting App
+### Build a real app - Voting App
 ![voting app final](voting-final.png)
+
+#### Advanced
+    - Higher order components
+
+### Resources
+- [React official doc](https://reactjs.org/docs)
+- [Lifecycle methods](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+- [Component lifecycle methods — A deep dive](https://hackernoon.com/reactjs-component-lifecycle-methods-a-deep-dive-38275d9d13c0)
