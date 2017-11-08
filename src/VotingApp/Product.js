@@ -1,37 +1,44 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 export default class Product extends Component{
+
+    static propTypes = {
+        onVote: PropTypes.func.isRequired,
+        product: PropTypes.object.isRequired
+    }
 
     handleUpVote = () => (
         this.props.onVote(this.props.product.id)
     );
 
     render(){
+        const { productImageUrl, votes, url, title, description, submitterAvatarUrl } = this.props.product
         return (
             <div className='item'>
                 <div className='image'>
-                    <img src={this.props.product.productImageUrl} />
+                    <img src={productImageUrl} />
                 </div>
                 <div className='middle aligned content'>
                     <div className='header'>
                         <a onClick={this.handleUpVote}>
                             <i className='large caret up icon' />
                         </a>
-                        {this.props.product.votes}
+                        {votes}
                     </div>
                     <div className='description'>
-                        <a href={this.props.product.url}>
-                            {this.props.product.title}
+                        <a href={url}>
+                            {title}
                         </a>
                         <p>
-                            {this.props.product.description}
+                            {description}
                         </p>
                     </div>
                     <div className='extra'>
                         <span>Submitted by:</span>
                         <img
                             className='ui avatar image'
-                            src={this.props.product.submitterAvatarUrl}
+                            src={submitterAvatarUrl}
                         />
                     </div>
                 </div>
